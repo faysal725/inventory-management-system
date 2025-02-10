@@ -1,5 +1,7 @@
 video no-https://www.youtube.com/watch?v=X35_jWVWTUc&list=PLDn5_2K0bUmcBCllw3MHfCav6pHjJJ99Y&index=2
 
+time: 1:02:00
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
