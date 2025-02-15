@@ -48,24 +48,11 @@ export default function SalesOverview() {
       {/* sales activity  */}
       <div className="col-span-8 border-r border-slate-300 p-8">
         <h2 className="mb-6 text-xl">Sales Activity</h2>
-        <div className=" pr-8 grid grid-cols-4 gap-4">
+        <div className=" pr-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* card  */}
           {salesActivity.map((item, index) => {
             return (
-              // <Link
-              //   href={item.href}
-              //   key={index}
-              //   className="shadow rounded-lg border border-slate-200 hover:border-blue-400 bg-white px-3 py-4  cursor-pointer flex items-center flex-col gap-3 transition-all duration-300"
-              // >
-              //   <h4 className={`font-semibold text-3xl ${item.color}`}>
-              //     {item.number}
-              //   </h4>
-              //   <small className={item.color}>{item.unit}</small>
-              //   <div className="flex items-center space-x-2 text-slate-500">
-              //     <CheckCircle2 className="w-4 h-4" />
-              //     <span className="uppercase text-xs">{item.title}</span>
-              //   </div>
-              // </Link>
+
               <SalesActivityCard item={item} key={index} />
             );
           })}

@@ -1,6 +1,6 @@
 video no-https://www.youtube.com/watch?v=UIZ2t7JsBSw&list=PLDn5_2K0bUmcBCllw3MHfCav6pHjJJ99Y&index=3
 
-time: 1:59:00
+time: 0:23:00
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
